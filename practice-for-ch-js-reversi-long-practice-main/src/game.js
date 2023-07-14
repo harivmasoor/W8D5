@@ -1,8 +1,8 @@
 // DON'T TOUCH THIS CODE
-if (typeof window === 'undefined'){
+//if (typeof window === 'undefined'){
   const readline = require("readline");
   const Board = require("./board.js");
-}
+//}
 // DON'T TOUCH THIS CODE
 
 /**
@@ -81,8 +81,8 @@ Game.prototype.runLoop = function (overCallback) {
 };
 
 // DON'T TOUCH THIS CODE
-if (typeof window === 'undefined'){
+// if (typeof window === 'undefined'){
   module.exports = Game;
-}
+// }
 // DON'T TOUCH THIS CODE
 
